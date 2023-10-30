@@ -147,7 +147,7 @@ function App() {
       <GlobalStyle />
       <StyledFormWrapper>
         <StyledForm onSubmit={handleSubmit}>
-          <h2>Contact Form</h2>
+          <h2>Log-in Form</h2>
           <label htmlFor="name">Name</label>
           <StyledInput type="text" name="name" value={state.name} onChange={handleInput} />
           <label htmlFor="email">Email</label>
